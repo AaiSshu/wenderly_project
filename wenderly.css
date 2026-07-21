@@ -412,7 +412,7 @@ nav {
 
 /****** Explore Page *****/
 #Explore_Page {
-  height: 78%;
+  height: 85%;
 }
 #Explore_Page h1 {
   color: #000e5e;
@@ -420,6 +420,10 @@ nav {
   text-align: center;
   font-size: 2.5rem;
   margin: 80px 0 20px 0;
+}
+.Explore_btn button:hover {
+  background-color: #3f53c6;
+  color: #fff;
 }
 .Explore_btn {
   text-align: center;
@@ -429,6 +433,7 @@ nav {
   margin: 10px;
   border-radius: 8px;
   background: rgba(231, 231, 231, 0.507);
+  transition: 0.6s;
 }
 .destinations_places_grid {
   display: grid;
