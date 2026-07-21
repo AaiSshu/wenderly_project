@@ -341,9 +341,10 @@ nav {
     scrollbar-width: none;
   }
   .signup_page {
-  max-width: 100vw;
-  min-height: 150vh; }
-  .signup_text{
+    max-width: 100vw;
+    min-height: 150vh;
+  }
+  .signup_text {
     padding: 10%;
   }
 }
@@ -384,13 +385,13 @@ nav {
   padding: 5px 0;
   transition: transform 0.6s;
 }
-.About_Details a:hover{
+.About_Details a:hover {
   color: rgb(255, 145, 0);
-  transform: translateX(10px) ;
+  transform: translateX(10px);
 }
-#gmail:focus{
+#gmail:focus {
   outline: rgb(255, 145, 0);
-  border: 2px solid  rgb(255, 145, 0);
+  border: 2px solid rgb(255, 145, 0);
 }
 .allrights {
   color: #ffff;
@@ -412,7 +413,7 @@ nav {
 
 /****** Explore Page *****/
 #Explore_Page {
-  height: 86%;
+  height: auto;
 }
 #Explore_Page h1 {
   color: #000e5e;
@@ -514,7 +515,7 @@ nav {
 .login_page,
 .signup_page {
   max-width: 100vw;
-  height: 90vh; 
+  height: 90vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -632,10 +633,11 @@ input:focus {
   line-height: 2rem;
   margin: 0 0 20px 0;
 }
-input.active,
+.input-error {
+  border: 10px solid red;
+}
 .errorMSG,
 .login_errorMSG {
-  outline-color: red;
   color: red;
 }
 .mobile_login.active {
